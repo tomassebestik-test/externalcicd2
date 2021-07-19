@@ -1,0 +1,10 @@
+stages:
+  - test
+
+test:
+  stage: test
+  script:
+    - echo "Success!"
+  tags:
+    - appserver
+    - espressif_tools
